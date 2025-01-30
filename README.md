@@ -13,7 +13,7 @@ This notebook: `Animal_Image_Classification.ipynb` was used to train a animal cl
 
 The dataset consists of `2100` images for **3 animal classes**. Here are some sample images for these three classes:
 
-[TODO: ADD IMAGE]
+![](./visuals/cat-dog-panda-class-image.png?raw=true)
 
 ---
 
@@ -57,7 +57,19 @@ transforms.RandomGrayscale(p=0.1),      # Occasionally convert to grayscale
 
 ### Loss and Accuracy:
 
-[TODO: add images]
+![](./visuals/animal_classification_loss_accuracy.png?raw=true)
+
+---
+
+### Inferences:
+
+![](./visuals/animal_classification_inference.png?raw=true)
+
+---
+
+### Confusion Matrix:
+
+![](./visuals/animal_classification_confusion_matrix.png?raw=true)
 
 ---
 
@@ -65,4 +77,4 @@ transforms.RandomGrayscale(p=0.1),      # Occasionally convert to grayscale
 
 The configurations discussed above, yielded a score of **0.89666** on the Kaggle's Leaderboard.
 
-[TODO: ADD IMAGES]
+![](./visuals/animal_classification_kaggle_leaderboard.png?raw=true)
