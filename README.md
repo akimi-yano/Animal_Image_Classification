@@ -63,7 +63,7 @@ transforms.RandomGrayscale(p=0.1),      # Occasionally convert to grayscale
 
 ### Inferences:
 
-![](./visuals/animal_classification_inference.png?raw=true)
+![](./visuals/animal_classification_inference-transformed.png?raw=true)
 
 ---
 
